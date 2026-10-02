@@ -7,7 +7,12 @@ function App() {
 
   return (
     <>
-    <h1>hi</h1>
+    <div className='app'>
+      <nav className='navbar'>
+        <div className='logo'>My Recipes</div>
+
+      </nav>
+    </div>
 
     </>
   )
