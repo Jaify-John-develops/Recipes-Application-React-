@@ -10,7 +10,7 @@ const RecipeCard = ({
   id,
 }) => {
   return (
-    <div className="card" key={id}>
+    <div className="card">
       <img src={imageUrl} alt="recipe_img" />
       <div className="card-body">
         <Link to={`/recipedetail/${id}`}>
