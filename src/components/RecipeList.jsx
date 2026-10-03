@@ -36,6 +36,10 @@ const RecipeList = () => {
             {loading && <div>loading...</div>}
 
             {error && <div>Error fetching recipes. Please try again later.</div>}
+            <div className='search-section'>
+                <input type="text" placeholder='Search for recipes...' name="search" />
+                <button className='searchBtn'>Search</button>
+            </div>
             <div className="card-grid">
                 {
                     recipes.map((recipe) => (
