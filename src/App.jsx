@@ -4,6 +4,7 @@ import './App.css'
 import RecipeDetail from './components/RecipeDetail'
 import { Routes, Route } from 'react-router-dom'
 import RecipeList from './components/RecipeList'
+import AddRecipe from './components/AddRecipe'
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
       <Route path='/' element={<Layout />}>
           <Route index element={<RecipeList />} />
           <Route path='recipedetail/:recipeid' element={<RecipeDetail />} />
+          <Route path='addrecipe' element={<AddRecipe />} />
        
       </Route>
     </Routes>
