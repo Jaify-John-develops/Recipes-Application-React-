@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddRecipe = () => {
   return (
-    <div className=' content centered'>
+    <div className='centered'>
         Add Recipe Page
       
     </div>
